@@ -1,0 +1,930 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+
+/* Navbar css */
+#nav {
+  width: 100%;
+  height: 50px;
+  background-color: #cbab81;
+  color: #ffff;
+}
+#navbar {
+  border: 0px solid black;
+  width: 84%;
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: "Lato";
+}
+.phone {
+  margin-right: 6px;
+}
+
+#navchild {
+  margin-right: 40%;
+}
+
+#navbar > div {
+  border: 0px solid;
+
+  width: auto;
+
+  font-family: "Lato";
+  font-size: 15px;
+  padding: 5px;
+  line-height: 15px;
+  margin-left: 0px;
+}
+#group {
+  border: 0px solid black;
+
+  padding-top: 5px;
+}
+/* Search Bar and Logo css */
+#logodiv {
+  
+  width: 100%;
+  border: 0px solid black;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#logobar {
+  width: 84%;
+  border: 0px solid black;
+  height: 107px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lgo {
+  font-size: 35px;
+  margin-left: 5px;
+  color: rgba(0, 201, 196, 1);
+
+  font-family: "Poppins";
+}
+.inputbar {
+  border: 0px solid red;
+  text-align: center;
+  display: flex;
+  margin-left: 120px;
+}
+.inputbar > input {
+  border: 1.4px solid rgb(255, 90, 35);
+  width: 480px;
+  height: 35.5px;
+  margin: auto;
+  padding-left: 25px;
+  border-radius: 50px 0 0 50px;
+}
+.inputbar > button {
+  height: 41px;
+  width: 52px;
+  border: 0px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background: rgba(255, 76, 17, 1);
+  border-radius: 0 50px 50px 0px;
+}
+
+.cart {
+  position: relative;
+  border: 0px solid;
+}
+
+.cartt {
+  position: absolute;
+  border: 0px solid;
+  background: rgba(255, 76, 17, 1);
+  color: white;
+  margin-top: -10px;
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+.cartp {
+  margin-left: -55px;
+}
+.thirdrow {
+  border: 0px solid;
+  width: 100%;
+  height: 80px;
+}
+.thirdrowtext {
+  border: 0px solid;
+  width: 84%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.thirdrowtext > p {
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: 600;
+}
+.imagescreen {
+  border: 0px solid;
+  width: 100%;
+  height: 489px;
+  display: flex;
+}
+.imagescreen > div {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.insideimage {
+  border: 0px solid;
+
+  width: 520px;
+  height: 253px;
+  margin: auto;
+  align-items: center;
+  margin-top: -400px;
+  margin-left: 110px;
+  position: absolute;
+}
+.insideimage > h1 {
+  font-family: "Poppins";
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(37, 37, 37, 1);
+}
+.insideimage > p {
+  font-family: "Lato";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(48, 48, 48, 1);
+  margin-top: -20px;
+}
+.insideimage > button {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 76, 17, 1);
+  border: 0px;
+  width: 139px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 1);
+}
+
+/* free return section  */
+
+.freereturn {
+  position: relative;
+  border: 0px solid;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.paymentdiv {
+  position: absolute;
+  border: 0px solid;
+  height: 200px;
+  width: 66%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  margin-top: 46px;
+}
+.shipcard {
+  border: 0px solid;
+  width: 25%;
+  text-align: center;
+}
+
+.shipcard > div {
+  margin: auto;
+}
+
+.shipcard > h4 {
+  color: rgba(37, 37, 37, 1);
+  font-size: 15px;
+  font-family: "Lato";
+  font-weight: 900;
+}
+
+.shipcard > p {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(90, 90, 90, 1);
+  margin-top: -15px;
+}
+
+.shipping {
+  border: 4px solid rgba(255, 172, 1, 1);
+  width: 124px;
+  height: 124px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Onsale section is here */
+
+.onsale {
+  width: 100%;
+  border: 0px solid;
+}
+.onsalediv {
+  border: 0px solid;
+  width: 84%;
+  margin: auto;
+  display: flex;
+}
+.onsalediv > div {
+  border: 0px solid red;
+  text-align: center;
+  height: auto;
+  width: 48%;
+  margin: auto;
+}
+
+#onsaletext {
+  width: 280px;
+  border: 0px solid;
+  margin-top: 5px;
+}
+
+#onsaletext > h1 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(37, 37, 37, 1);
+  height: 30px;
+  text-align: center;
+}
+#onsale1 > hr {
+  margin-right: -12px;
+  border: 1px solid rgba(255, 76, 17, 1);
+}
+#onsale2 > hr {
+  margin-left: -12px;
+  border: 1px solid rgba(255, 76, 17, 1);
+}
+
+/* Products section is here */
+#Productssec {
+  border: 0px solid;
+  width: 96%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 406px;
+}
+#Productssec > div {
+  width: 88%;
+  border: 0px solid;
+  margin: auto;
+  height: 406px;
+}
+#Productssec > i {
+  font-size: 35px;
+}
+.productdiv {
+  border: 0px solid;
+  width: 224px;
+  height: 406px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.productdiv > button {
+  width: 136px;
+  height: 50px;
+  top: 1378px;
+  left: 164px;
+  border-radius: 40px;
+  background-color: #ffac01;
+  color: white;
+  border: 0px;
+  margin-top: 25px;
+}
+.productdiv > img {
+  margin-top: 20px;
+  height: 150px;
+}
+.Productsfle {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+.dotbar {
+  border: 0px solid;
+  margin: auto;
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* Popular cateories is started here */
+
+#populartext {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#populartext > h1 {
+  font-family: "Poppins";
+
+  font-weight: 600;
+  font-size: 33px;
+  margin-bottom: -18px;
+  text-align: center;
+  color: #252525;
+}
+#populartext > p {
+  margin-top: -15px;
+  font-family: "Poppins";
+  font-size: 16px;
+
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5a5a5a;
+}
+#popularrdiv {
+  border: 0px solid;
+  width: 84%;
+  height: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 18px;
+}
+
+#popularrdiv > div {
+  border: 0px solid;
+}
+#popularrdiv > div > img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.loremtext {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 50px;
+}
+.loremtext > button {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 76, 17, 1);
+  border: 0px;
+  width: 139px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 30px;
+}
+
+.loremtext > h1 {
+  margin-top: -8px;
+}
+.loremtext > p {
+  margin-top: -10px;
+}
+
+.sidephoto {
+  margin-left: 216px;
+  margin-top: -202px;
+}
+#lastmask > img {
+  margin-left: -34px;
+}
+
+/* big background image is here */
+
+.imagebackgroud {
+  position: relative;
+  border: 0px solid;
+  width: 100%;
+  margin-top: 100px;
+  height: 480.23px;
+}
+.imagebackgroud > img {
+  width: 100%;
+}
+.imagebackgroud > h1 {
+  color: #252525;
+}
+.h1divt {
+  width: 808px;
+  height: 110px;
+  text-align: center;
+  margin: auto;
+  margin-top: -440px;
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.h1divt > j1 {
+}
+.divpof {
+  font-family: "Lato";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#bgbutton {
+  position: sticky;
+  display: flex;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  margin: auto;
+  color: rgba(255, 255, 255, 1);
+  border: 0px;
+  width: 139px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background: rgba(255, 76, 17, 1);
+  margin-top: 30px;
+}
+.bgdowndiv {
+  margin-top: -35px;
+}
+.plasticbag {
+  position: sticky;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-top: -350px;
+}
+.imgg1 {
+  rotate: -25deg;
+}
+.imgg2 {
+  rotate: 25deg;
+}
+
+/* Our goal section is here */
+.ourgoalmain {
+  border: 0px solid;
+  margin: auto;
+  width: 84%;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 2%;
+}
+.ourgoalmain1 {
+  border: 0px solid;
+  width: 58%;
+  height: 100%;
+}
+.ourgolable {
+  display: flex;
+}
+.ourgolable > div {
+  border: 0px solid red;
+  width: 60%;
+
+  margin: auto;
+}
+.ourgolable > div > hr {
+  border: 1px solid;
+  color: #ff4c11;
+}
+
+.ourgoalmain1 > p {
+  border: 0px solid;
+  width: 90%;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ourgoalmain1 > button {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  border: 0px;
+  width: 139px;
+  height: 50px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background: rgba(255, 76, 17, 1);
+  margin-top: 50px;
+}
+
+.ourgoalmain2 {
+  border: 0px solid;
+  width: 45%;
+}
+
+.imgb1 {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.imgb2 {
+  border: 10px solid white;
+  margin-top: -150px;
+  border-radius: 50%;
+}
+
+/* New letter is here */
+.newsletter {
+  border: 0px solid;
+  width: 84%;
+  margin: auto;
+  height: 350px;
+}
+.newsletter > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Foooter is here */
+
+#footer {
+  display: flex;
+  border: 0px solid;
+  width: 84%;
+  margin: auto;
+  margin-top: 100px;
+}
+#footer > div {
+  width: 25%;
+  text-align: left;
+  gap: 20px;
+}
+
+.logoandsocial > p {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00c9c4;
+}
+#footer > h4 {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #252525;
+}
+
+.contactus {
+  border: 0px solid;
+  width: 60%;
+  margin: auto;
+  height: 200px;
+  display: flex;
+  margin-left: 370px;
+  justify-content: space-between;
+}
+.maincont {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a5a5a;
+}
+.Copyright {
+  border: 0px solid;
+  display: flex;
+  justify-content: end;
+  flex-direction: column-reverse;
+  padding-right: 50px;
+  padding-left: 10px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a5a5a;
+}
+.maincont > div > i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.maincont > h4 {
+  margin-left: 40px;
+}
+
+/* ------------------------------- */
+/* Next part is here */
+/* for invite now section here */
+.invitenow {
+  width: 100%;
+  border: 0px solid;
+  height: 199px;
+  background: radial-gradient(
+      68.54% 437.84% at 25.76% 45.22%,
+      #e5e5e5 0%,
+      #c0c0c0 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
+
+.invitenow > H4 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.invitenow > button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+
+  color: rgba(255, 76, 17, 1);
+  border: 0px;
+  width: 139px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Filter section is here */
+
+.filters1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  border: 0px solid;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.filters1 > h4 {
+  margin: auto;
+  margin-left: 30px;
+}
+
+.btnprc {
+  width: 76px;
+  height: 25px;
+  top: 1024px;
+  left: 132px;
+  border-radius: 40px;
+  border: 1px;
+}
+#lanchdate > div > input {
+  width: 162px;
+  height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  border: 1px solid;
+  background-color: linear-gradient(0deg, #d1d1d1, #d1d1d1),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+.checked span {
+  color: #c0c0c0;
+}
+.checked {
+  color: #ffac01;
+}
+
+#mainfilter1 > div {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.filters1 > button {
+  margin: auto;
+  margin-right: 30px;
+  width: 270px;
+  height: 38px;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px;
+  background-color: linear-gradient(0deg, #d1d1d1, #d1d1d1),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  padding: 5px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.filters1 > button > i {
+  margin-left: 10px;
+}
+
+.mainfilter {
+  border: 0px solid;
+  width: 100%;
+  height: 1400px;
+  display: flex;
+}
+
+.mainfilter1 {
+  border: 0px solid;
+  width: 19%;
+  height: 1400px;
+
+  margin-left: 30px;
+}
+.mainfilter1 > div > div {
+  width: 70%;
+  padding-left: 40px;
+}
+.mortwala {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff4c11;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainfilter2 {
+  border: 0px solid;
+  width: 76%;
+  margin-left: 1%;
+  height: 1400px;
+}
+.mainfilter2 > div {
+  border: 0px solid red;
+}
+
+
+.mainfilter1 > div {
+  border: 1px solid rgb(230, 224, 224);
+  width: 100%;
+  height: auto;
+}
+.productdiv {
+  height: auto;
+  border: 1px;
+}
+#ramm {
+  height: 320px;
+  width: 35%;
+}
+#filtersfle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+#filtersfle > div {
+  width: 100%;
+}
+
+/* Pagination is here */
+
+#mainpagediv {
+  border: 0px solid;
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+#mainpagediv1 {
+  border: 0px solid;
+  width: 10%;
+}
+
+#mainpagediv2 {
+  border: 0px solid;
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  margin-left: 60px;
+
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  align-items: center;
+}
+#mainpagediv3 {
+  border: 0px solid;
+  width: 10%;
+  color: #ffffff;
+}
+#mainpagediv > div > button {
+  width: 128px;
+  height: 44px;
+  border: 0.1 transparent;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: linear-gradient(0deg, #d1d1d1, #d1d1d1),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+
+.teenn {
+  border: 0px solid;
+  width: 36px;
+  text-align: center;
+  background-color: #252525;
+  color: white;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
